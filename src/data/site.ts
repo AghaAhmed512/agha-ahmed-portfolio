@@ -14,6 +14,12 @@ export const site = {
   yearsExperience: "4",
 } as const;
 
+export const achievementStats = [
+  { target: 4, suffix: "+", label: "Years Experience" },
+  { target: 2, suffix: "", label: "Enterprise Products" },
+  { target: 100, suffix: "+", label: "Automated Test Cases" },
+] as const;
+
 export const professionalSummary = [
   "QA Automation Engineer with 4 years of experience in enterprise test automation.",
   "Experienced in WebdriverIO, TypeScript, LambdaTest, CI/CD validation, and cross-browser testing across large-scale products including KAYAK and Hirestream.",

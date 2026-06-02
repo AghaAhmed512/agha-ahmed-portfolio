@@ -39,8 +39,8 @@ export function Contact() {
 
         <div className="card max-w-2xl">
           <p className="mb-8 text-lg text-muted leading-relaxed">
-            Open to roles in test automation, SDET, and quality engineering. Reach
-            out via email, LinkedIn, or GitHub — I typically respond within a day.
+          Open to QA automation roles (remote-friendly). 
+          <br/>Reach out anytime—I respond within a day.
           </p>
 
           <ul className="space-y-4">

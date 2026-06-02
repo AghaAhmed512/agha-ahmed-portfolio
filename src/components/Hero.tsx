@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AchievementStats } from "@/components/AchievementStats";
 import { site } from "@/data/site";
 import {
   IconArrowRight,
@@ -39,6 +40,8 @@ export function Hero() {
               <p>💼 {site.yearsExperience} Years Professional Experience</p>
               <p>🌎 Open to Remote & International Opportunities</p>
             </div>
+
+            <AchievementStats />
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
