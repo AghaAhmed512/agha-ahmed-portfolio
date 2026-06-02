@@ -20,14 +20,6 @@ export function Hero() {
       <div className="section-container relative">
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_auto] lg:gap-16">
           <div>
-            <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-sm text-muted">
-              <span className="relative flex h-2 w-2">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-40" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
-              </span>
-              Available for opportunities
-            </p>
-
             <h1 className="max-w-3xl text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
               <span className="gradient-text">{site.name}</span>
             </h1>
@@ -39,11 +31,13 @@ export function Hero() {
               {site.tagline}
             </p>
 
-            <div className="mt-4 flex items-center gap-2 text-sm text-muted">
-              <IconMapPin className="h-4 w-4 shrink-0 text-accent" />
-              {site.location}
-              <span className="text-border">·</span>
-              <span>{site.yearsExperience} years experience</span>
+            <div className="mt-6 space-y-2 text-sm text-muted sm:text-base">
+              <p className="flex items-center gap-2">
+                <IconMapPin className="h-4 w-4 shrink-0 text-accent" />
+                {site.location}
+              </p>
+              <p>💼 {site.yearsExperience} Years Professional Experience</p>
+              <p>🌎 Open to Remote & International Opportunities</p>
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">

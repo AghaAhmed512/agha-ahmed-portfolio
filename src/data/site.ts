@@ -1,9 +1,9 @@
 export const site = {
-  name: "Agha Muhammad Ahmed Mehmood",
-  shortName: "Agha Ahmed",
-  title: "Software Automation Engineer",
+  name: "Ahmed Mehmood",
+  shortName: "Ahmed Mehmood",
+  title: "QA Automation Engineer | DevOps Enthusiast",
   tagline:
-    "Building reliable end-to-end automation for travel platforms and enterprise HR systems.",
+    "Building reliable end-to-end automation frameworks, improving software quality, and expanding expertise in cloud infrastructure, CI/CD, and DevOps practices.",
   location: "Lahore, Pakistan",
   email: "aghaaahmed512@gmail.com",
   phone: "+92 302 4116225",
@@ -11,37 +11,49 @@ export const site = {
   github: "https://github.com/AghaAhmed512",
   profileImage: "/profile.png",
   resumePath: "/resume.pdf",
-  yearsExperience: "3+",
+  yearsExperience: "4",
 } as const;
 
-export const profile = `Motivated Software Automation Engineer with 3+ years of experience delivering reliable, scalable end-to-end automation for both consumer-facing travel platforms (KAYAK, Momondo, HotelsCombined) and enterprise HR / ATS systems (HireStream). Strong expertise in WebdriverIO, TypeScript, JavaScript, cross-browser testing, CI build stability, and Smart UI visual regression testing. Known for improving test reliability, reducing manual effort, and collaborating closely with cross-functional teams.`;
+export const professionalSummary = [
+  "QA Automation Engineer with 4 years of experience in enterprise test automation.",
+  "Experienced in WebdriverIO, TypeScript, LambdaTest, CI/CD validation, and cross-browser testing across large-scale products including KAYAK and Hirestream.",
+  "Additionally completed hands-on DevOps training involving AWS, Docker, Terraform, GitHub Actions, and Ansible while building personal cloud and development projects.",
+] as const;
+
+export const aboutMe = [
+  "Started my career as an E-Learning Technical Developer / QA at Arbisoft.",
+  "Transitioned into Software Automation where I worked on enterprise-scale platforms including KAYAK and Hirestream.",
+  "Developed expertise in automation frameworks, cross-browser testing, CI/CD quality validation, and test reliability improvements.",
+  "Recently expanded my skillset through hands-on DevOps training focused on AWS, Docker, Terraform, GitHub Actions, and Ansible.",
+  "Outside of professional work, I enjoy building personal projects such as FinTrack to strengthen my development and DevOps capabilities.",
+] as const;
 
 export const experience = [
   {
-    role: "Software Automation Engineer",
+    role: "QA Automation Engineer",
     company: "Arbisoft",
     location: "Lahore, Pakistan",
-    period: "Dec 2022 – Present",
+    period: "Dec 2022 – Jun 2026",
     highlights: [
-      "Design, develop, and maintain scalable end-to-end automation frameworks using WebdriverIO, JavaScript, and TypeScript.",
-      "Work across consumer-scale travel products and enterprise HR / ATS platforms.",
-      "Execute cross-browser & cross-platform testing using LambdaTest (Chrome, Firefox, Edge, Safari, macOS, iOS).",
-      "Implement Smart UI visual regression testing to catch unintended UI and layout changes.",
-      "Monitor CI pipelines, analyze failures, identify flaky tests, and improve overall test stability.",
-      "Create clear Jira tickets with reproduction steps, evidence, and expected vs actual behavior.",
-      "Collaborate closely with developers, QAs, and product managers to align automation with business workflows.",
+      "Developed and maintained scalable end-to-end automation frameworks using WebdriverIO and TypeScript.",
+      "Worked on enterprise travel platforms including KAYAK, Momondo, HotelsCombined, and Mundi.",
+      "Performed cross-browser testing using LambdaTest across Chrome, Firefox, Edge, Safari, macOS, and iOS.",
+      "Implemented Smart UI visual testing to detect layout and UI regressions.",
+      "Monitored CI/CD pipelines and investigated build failures.",
+      "Improved automation stability by identifying and fixing flaky tests.",
+      "Collaborated closely with developers, product managers, and QA teams.",
     ],
   },
   {
-    role: "E-Learning Technical Developer / QA",
+    role: "E-Learning Technical Developer",
     company: "Arbisoft",
     location: "Lahore, Pakistan",
     period: "Jun 2022 – Dec 2022",
     highlights: [
-      "Developed and customized interactive eLearning courses to meet specific client needs and learning goals.",
-      "Reviewed and edited course content for clarity, consistency, and alignment with instructional design principles.",
-      "Performed detailed acceptance testing and created comprehensive QA reports documenting bugs and improvements.",
-      "Conducted quality assurance testing for eLearning courses on both LMS and CMS platforms.",
+      "Developed and customized interactive e-learning content.",
+      "Performed quality assurance testing for LMS and CMS platforms.",
+      "Reviewed content quality and functionality.",
+      "Created QA reports and validation documentation.",
     ],
   },
 ] as const;

@@ -5,7 +5,7 @@ export function Experience() {
     <section id="experience" className="scroll-mt-24 py-20 sm:py-28">
       <div className="section-container">
         <p className="section-heading">Experience</p>
-        <h2 className="section-title">Where I&apos;ve worked</h2>
+        <h2 className="section-title">Experience Section</h2>
 
         <div className="relative space-y-12 before:absolute before:left-[7px] before:top-2 before:h-[calc(100%-1rem)] before:w-px before:bg-border sm:before:left-[11px]">
           {experience.map((job, index) => (
@@ -27,7 +27,8 @@ export function Experience() {
                 </p>
               </div>
 
-              <ul className="mt-5 space-y-3">
+              <p className="mt-5 text-base font-medium text-foreground">Responsibilities:</p>
+              <ul className="mt-3 space-y-3">
                 {job.highlights.map((item, i) => (
                   <li
                     key={i}
