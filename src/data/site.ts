@@ -69,6 +69,7 @@ export const projects = [
     name: "HireStream",
     logo: "/logos/hirestream.svg",
     logoLightBg: true,
+    logoWide: true,
     subtitle: "Enterprise ATS / HR Platform",
     description:
       "End-to-end test automation for core ATS workflows including candidate management, job applications, forms, and settings modules.",
@@ -111,6 +112,7 @@ export const projects = [
     name: "McKinsey",
     logo: "/logos/mckinsey.png",
     logoLightBg: true,
+    logoWide: true,
     subtitle: "Enterprise eLearning · Digital Learning Programs",
     description:
       "Developed and validated interactive eLearning modules and digital learning experiences for enterprise professional learning programs across LMS platforms.",
