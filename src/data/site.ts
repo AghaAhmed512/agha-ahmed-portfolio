@@ -16,7 +16,7 @@ export const site = {
 
 export const achievementStats = [
   { target: 4, suffix: "+", label: "Years Experience" },
-  { target: 2, suffix: "", label: "Enterprise Products" },
+  { target: 4, suffix: "", label: "Enterprise Products" },
   { target: 100, suffix: "+", label: "Automated Test Cases" },
 ] as const;
 
@@ -51,7 +51,7 @@ export const experience = [
     ],
   },
   {
-    role: "E-Learning Technical Developer",
+    role: "E-E-Learning Technical Developer / QA",
     company: "Arbisoft",
     location: "Lahore, Pakistan",
     period: "Jun 2022 – Dec 2022",
@@ -102,6 +102,64 @@ export const projects = [
       "Improved stability and reliability of daily smoke, sanity, and regression pipelines.",
       "Reduced false failures by identifying and fixing flaky tests.",
       "Helped identify multiple product-level issues early through automation.",
+    ],
+  },
+  {
+    name: "McKinsey",
+    subtitle: "Enterprise eLearning · Digital Learning Programs",
+    description:
+      "Developed and validated interactive eLearning modules and digital learning experiences for enterprise professional learning programs across LMS platforms.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "QA Testing",
+      "LMS",
+      "CMS",
+      "Content Validation",
+    ],
+    highlights: [
+      "Developed and customized interactive eLearning modules and learning experiences.",
+      "Performed functional testing and quality assurance of digital learning content.",
+      "Validated course functionality, navigation flows, and learner experience.",
+      "Reviewed content quality, consistency, and alignment with project requirements.",
+      "Collaborated with instructional designers, developers, and stakeholders.",
+      "Supported content publishing and delivery across LMS platforms.",
+      "Identified and reported defects to ensure a smooth learning experience.",
+    ],
+    impact: [
+      "Delivered high-quality digital learning experiences through rigorous testing and content validation.",
+      "Improved content reliability and learner experience across learning programs.",
+      "Contributed to successful delivery of professional learning solutions.",
+    ],
+  },
+  {
+    name: "Edly",
+    subtitle: "Online Education · Learning Platforms",
+    description:
+      "Created and tested learning content for online education platforms, with end-to-end QA across LMS and CMS environments before release.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "LMS",
+      "CMS",
+      "QA Testing",
+      "Content Management",
+    ],
+    highlights: [
+      "Created and customized learning content for online education platforms.",
+      "Performed end-to-end testing of courses and learning modules.",
+      "Verified platform functionality across different learning environments.",
+      "Conducted acceptance testing and quality validation before release.",
+      "Reported, tracked, and verified issues to maintain content quality.",
+      "Collaborated with content creators, developers, and project stakeholders.",
+      "Ensured learning materials met functional and quality standards.",
+    ],
+    impact: [
+      "Improved content quality and platform reliability through detailed testing.",
+      "Supported successful delivery of learning solutions for end users.",
+      "Helped maintain a consistent and engaging learning experience.",
     ],
   },
 ] as const;

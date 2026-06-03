@@ -32,7 +32,10 @@ export function Projects() {
                 ))}
               </div>
 
-              <ul className="mt-6 space-y-2.5">
+              <p className="mt-6 text-xs font-medium uppercase tracking-wider text-accent">
+                Contributions
+              </p>
+              <ul className="mt-3 space-y-2.5">
                 {project.highlights.map((item, i) => (
                   <li
                     key={i}
