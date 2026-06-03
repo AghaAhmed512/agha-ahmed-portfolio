@@ -67,6 +67,8 @@ export const experience = [
 export const projects = [
   {
     name: "HireStream",
+    logo: "/logos/hirestream.svg",
+    logoLightBg: true,
     subtitle: "Enterprise ATS / HR Platform",
     description:
       "End-to-end test automation for core ATS workflows including candidate management, job applications, forms, and settings modules.",
@@ -85,8 +87,9 @@ export const projects = [
     ],
   },
   {
-    name: "KAYAK Travel Ecosystem",
-    subtitle: "KAYAK · Momondo · HotelsCombined",
+    name: "KAYAK",
+    logo: "/logos/kayak.png",
+    subtitle: "Travel Search Platform (KAYAK · Momondo · HotelsCombined)",
     description:
       "Automation for web-based travel search platforms — Flights, Cars, Hotels, Packages — with cross-browser coverage and localization testing.",
     tech: ["WebdriverIO", "TypeScript", "Chai", "LambdaTest", "GTM & Localization"],
@@ -106,6 +109,8 @@ export const projects = [
   },
   {
     name: "McKinsey",
+    logo: "/logos/mckinsey.png",
+    logoLightBg: true,
     subtitle: "Enterprise eLearning · Digital Learning Programs",
     description:
       "Developed and validated interactive eLearning modules and digital learning experiences for enterprise professional learning programs across LMS platforms.",
@@ -135,6 +140,7 @@ export const projects = [
   },
   {
     name: "Edly",
+    logo: "/logos/edly.svg",
     subtitle: "Online Education · Learning Platforms",
     description:
       "Created and tested learning content for online education platforms, with end-to-end QA across LMS and CMS environments before release.",

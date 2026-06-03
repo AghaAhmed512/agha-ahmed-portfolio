@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { projects } from "@/data/site";
 
 export function Projects() {
@@ -10,8 +11,23 @@ export function Projects() {
         <div className="grid gap-8">
           {projects.map((project) => (
             <article key={project.name} className="card group">
-              <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                <div>
+              <div className="flex items-start gap-4">
+                <div
+                  className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-border p-2 sm:h-[4.5rem] sm:w-[4.5rem] ${
+                    "logoLightBg" in project && project.logoLightBg
+                      ? "bg-white"
+                      : "bg-surface-elevated"
+                  }`}
+                >
+                  <Image
+                    src={project.logo}
+                    alt={`${project.name} logo`}
+                    width={72}
+                    height={72}
+                    className="h-full w-full object-contain"
+                  />
+                </div>
+                <div className="min-w-0 flex-1">
                   <h3 className="text-2xl font-semibold text-foreground transition-colors group-hover:text-accent">
                     {project.name}
                   </h3>
