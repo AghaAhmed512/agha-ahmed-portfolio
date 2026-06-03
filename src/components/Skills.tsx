@@ -2,7 +2,7 @@ import { skillGroups } from "@/data/site";
 
 export function Skills() {
   return (
-    <section id="skills" className="scroll-mt-24 py-20 sm:py-28">
+    <section id="skills" className="section-block">
       <div className="section-container">
         <p className="section-heading">Skills</p>
         <h2 className="section-title">Technical toolkit</h2>
@@ -10,7 +10,7 @@ export function Skills() {
         <div className="grid gap-6 sm:grid-cols-2">
           {skillGroups.map((group) => (
             <div key={group.category} className="card">
-              <h3 className="mb-4 text-lg font-medium text-foreground">
+              <h3 className="mb-3 text-lg font-medium text-foreground">
                 {group.category}
               </h3>
               <ul className="flex flex-wrap gap-2">

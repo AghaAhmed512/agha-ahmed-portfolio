@@ -2,7 +2,7 @@ import { education } from "@/data/site";
 
 export function Education() {
   return (
-    <section id="education" className="scroll-mt-24 py-20 sm:py-28">
+    <section id="education" className="section-block">
       <div className="section-container">
         <p className="section-heading">Education</p>
         <h2 className="section-title">Academic background</h2>

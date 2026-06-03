@@ -11,7 +11,7 @@ import {
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pt-28 pb-20 sm:pt-36 sm:pb-28">
+    <section className="relative overflow-hidden pt-24 pb-14 sm:pt-32 sm:pb-16">
       <div className="pointer-events-none absolute inset-0 grid-bg" aria-hidden />
       <div
         className="pointer-events-none absolute -top-32 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-accent/10 blur-3xl"
@@ -43,7 +43,7 @@ export function Hero() {
 
             <AchievementStats />
 
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="#contact"
                 className="group inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
@@ -79,7 +79,7 @@ export function Hero() {
               </a>
             </div>
 
-            <div className="mt-16 flex flex-wrap gap-3 font-mono text-xs text-muted sm:text-sm">
+            <div className="mt-10 flex flex-wrap gap-3 font-mono text-xs text-muted sm:text-sm">
               {["WebdriverIO", "TypeScript", "LambdaTest", "Smart UI", "CI/CD"].map(
                 (tech) => (
                   <span

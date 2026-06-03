@@ -15,12 +15,12 @@ function projectLogoBoxClass(project: (typeof projects)[number]) {
 
 export function Projects() {
   return (
-    <section id="projects" className="scroll-mt-24 py-20 sm:py-28">
+    <section id="projects" className="section-block">
       <div className="section-container">
         <p className="section-heading">Projects</p>
         <h2 className="section-title">Featured work</h2>
 
-        <div className="grid gap-8">
+        <div className="grid gap-6">
           {projects.map((project) => {
             const wide = "logoWide" in project && project.logoWide;
             return (
@@ -49,9 +49,9 @@ export function Projects() {
                   </div>
                 </div>
 
-                <p className="mt-4 text-muted leading-relaxed">{project.description}</p>
+                <p className="mt-3 text-muted leading-relaxed">{project.description}</p>
 
-                <div className="mt-4 flex flex-wrap gap-2">
+              <div className="mt-3 flex flex-wrap gap-2">
                   {project.tech.map((t) => (
                     <span
                       key={t}
@@ -62,10 +62,10 @@ export function Projects() {
                   ))}
                 </div>
 
-                <p className="mt-6 text-xs font-medium uppercase tracking-wider text-accent">
+                <p className="mt-5 text-xs font-medium uppercase tracking-wider text-accent">
                   Contributions
                 </p>
-                <ul className="mt-3 space-y-2.5">
+                <ul className="mt-2 space-y-2">
                   {project.highlights.map((item, i) => (
                     <li
                       key={i}
@@ -76,7 +76,7 @@ export function Projects() {
                   ))}
                 </ul>
 
-                <div className="mt-6 rounded-xl border border-accent/20 bg-accent-glow p-4">
+                <div className="mt-5 rounded-xl border border-accent/20 bg-accent-glow p-4">
                   <p className="mb-2 text-xs font-medium uppercase tracking-wider text-accent">
                     Impact
                   </p>

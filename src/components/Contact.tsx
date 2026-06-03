@@ -32,13 +32,13 @@ const contactItems = [
 
 export function Contact() {
   return (
-    <section id="contact" className="scroll-mt-24 py-20 sm:py-28">
+    <section id="contact" className="section-block">
       <div className="section-container">
         <p className="section-heading">Contact</p>
         <h2 className="section-title">Let&apos;s connect</h2>
 
         <div className="card max-w-2xl">
-          <p className="mb-8 text-lg text-muted leading-relaxed">
+          <p className="mb-6 leading-relaxed text-muted">
           Open to QA automation roles (remote-friendly). 
           <br/>Reach out anytime—I respond within a day.
           </p>
@@ -75,7 +75,7 @@ export function Contact() {
           <a
             href={site.resumePath}
             download
-            className="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-accent py-3.5 text-sm font-medium text-background transition-opacity hover:opacity-90 sm:w-auto sm:px-8"
+            className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-accent py-3.5 text-sm font-medium text-background transition-opacity hover:opacity-90 sm:w-auto sm:px-8"
           >
             Download resume (PDF)
           </a>
