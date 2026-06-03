@@ -51,7 +51,7 @@ export const experience = [
     ],
   },
   {
-    role: "E-E-Learning Technical Developer / QA",
+    role: "E-Learning Technical Developer / QA",
     company: "Arbisoft",
     location: "Lahore, Pakistan",
     period: "Jun 2022 – Dec 2022",
