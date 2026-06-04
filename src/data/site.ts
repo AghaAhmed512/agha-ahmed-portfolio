@@ -10,6 +10,7 @@ export const site = {
   linkedin: "https://www.linkedin.com/in/agha-ahmed",
   github: "https://github.com/AghaAhmed512",
   profileImage: "/profile.png",
+  logo: "/logo.svg",
   resumePath: "/resume.pdf",
   yearsExperience: "4",
 } as const;

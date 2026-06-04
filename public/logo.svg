@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" role="img" aria-label="Ahmed Mehmood">
+  <rect width="512" height="512" rx="112" fill="#0a0f14"/>
+  <rect x="40" y="40" width="432" height="432" rx="88" stroke="#34d399" stroke-width="28"/>
+  <text
+    x="256"
+    y="310"
+    font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif"
+    font-size="200"
+    font-weight="700"
+    fill="#34d399"
+    text-anchor="middle"
+  >AM</text>
+</svg>

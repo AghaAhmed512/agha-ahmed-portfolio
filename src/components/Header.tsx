@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { site, navLinks } from "@/data/site";
+import { Logo } from "@/components/Logo";
 import { IconMenu, IconClose } from "./icons";
 
 export function Header() {
@@ -33,10 +34,14 @@ export function Header() {
       <div className="section-container flex h-16 items-center justify-between sm:h-[4.5rem]">
         <a
           href="#"
-          className="font-mono text-sm font-medium tracking-tight text-foreground transition-colors duration-200 hover:text-[#34d399]"
+          className="group flex items-center gap-2.5 transition-opacity hover:opacity-90"
+          aria-label={`${site.shortName} — home`}
         >
-          {site.shortName}
-          <span className="text-accent">.</span>
+          <Logo className="h-9 w-9 shrink-0 rounded-lg transition-transform duration-200 group-hover:scale-105 sm:h-10 sm:w-10" />
+          <span className="font-mono text-sm font-medium tracking-tight text-foreground transition-colors duration-200 group-hover:text-[#34d399]">
+            {site.shortName}
+            <span className="text-accent">.</span>
+          </span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
