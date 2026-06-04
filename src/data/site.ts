@@ -12,27 +12,26 @@ export const site = {
   profileImage: "/profile.png",
   logo: "/logo.svg",
   resumePath: "/resume.pdf",
-  yearsExperience: "4",
+  yearsExperience: "5",
 } as const;
 
 export const achievementStats = [
-  { target: 4, suffix: "+", label: "Years Experience" },
+  { target: 5, suffix: "+", label: "Years Experience" },
   { target: 4, suffix: "", label: "Enterprise Products" },
   { target: 100, suffix: "+", label: "Automated Test Cases" },
 ] as const;
 
 export const professionalSummary = [
-  "QA Automation Engineer with 4 years of experience in enterprise test automation.",
+  "QA Automation Engineer with 5+ years across mobile development, eLearning QA, and enterprise test automation.",
   "Experienced in WebdriverIO, TypeScript, LambdaTest, CI/CD validation, and cross-browser testing across large-scale products including KAYAK and Hirestream.",
-  "Additionally completed hands-on DevOps training involving AWS, Docker, Terraform, GitHub Actions, and Ansible while building personal cloud and development projects.",
+  "Foundation in Flutter and Dart from early mobile work; additionally completed hands-on DevOps training involving AWS, Docker, Terraform, GitHub Actions, and Ansible.",
 ] as const;
 
 export const aboutMe = [
-  "Started my career as an E-Learning Technical Developer / QA at Arbisoft.",
-  "Transitioned into Software Automation where I worked on enterprise-scale platforms including KAYAK and Hirestream.",
-  "Developed expertise in automation frameworks, cross-browser testing, CI/CD quality validation, and test reliability improvements.",
-  "Recently expanded my skillset through hands-on DevOps training focused on AWS, Docker, Terraform, GitHub Actions, and Ansible.",
-  "Outside of professional work, I enjoy building personal projects such as FinTrack to strengthen my development and DevOps capabilities.",
+  "My career began in mobile application development at EwigLife Technologies (2021–2022), where I built cross-platform Android and iOS applications using Flutter and Dart.",
+  "In 2022, I joined Arbisoft as an E-Learning Technical Developer / QA, contributing to enterprise learning platforms and programs including Edly and McKinsey.",
+  "I later transitioned into QA Automation Engineering, working on large-scale products such as KAYAK, Momondo, HotelsCombined, and Hirestream, focusing on WebdriverIO automation, cross-browser testing, and CI/CD quality validation.",
+  "More recently, I expanded my expertise through hands-on DevOps training and projects involving AWS, Docker, Terraform, GitHub Actions.",
 ] as const;
 
 export const experience = [
@@ -61,6 +60,20 @@ export const experience = [
       "Performed quality assurance testing for LMS and CMS platforms.",
       "Reviewed content quality and functionality.",
       "Created QA reports and validation documentation.",
+    ],
+  },
+  {
+    role: "Junior App Developer",
+    company: "EwigLife Technologies",
+    location: "Lahore, Pakistan",
+    period: "Feb 2021 – May 2022",
+    technologies: ["Flutter", "Dart", "Firebase", "Android", "iOS"],
+    highlights: [
+      "Developed cross-platform mobile applications using Flutter and Dart.",
+      "Implemented user authentication and API integrations.",
+      "Worked on real-time data handling and application functionality.",
+      "Contributed to UI implementation and feature development.",
+      "Collaborated with team members to deliver mobile solutions.",
     ],
   },
 ] as const;
@@ -191,6 +204,10 @@ export const skillGroups = [
   {
     category: "Languages",
     skills: ["TypeScript", "JavaScript"],
+  },
+  {
+    category: "Development",
+    skills: ["Flutter", "Dart", "Firebase", "Android", "iOS"],
   },
   {
     category: "Domains",

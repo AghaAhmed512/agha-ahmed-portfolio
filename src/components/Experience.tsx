@@ -27,6 +27,22 @@ export function Experience() {
                 </p>
               </div>
 
+              {"technologies" in job && job.technologies && (
+                <>
+                  <p className="mt-4 text-sm font-medium text-foreground">Technologies</p>
+                  <ul className="mt-2 flex flex-wrap gap-2">
+                    {job.technologies.map((tech) => (
+                      <li
+                        key={tech}
+                        className="rounded-lg border border-border bg-surface-elevated px-3 py-1 text-sm text-muted"
+                      >
+                        {tech}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
               <p className="mt-4 text-sm font-medium text-foreground">Responsibilities</p>
               <ul className="mt-2 space-y-2.5">
                 {job.highlights.map((item, i) => (
