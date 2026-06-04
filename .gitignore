@@ -31,6 +31,10 @@ yarn-error.log*
 # env files
 .env*
 
+# local AI context (not pushed to remote)
+PROJECT_CONTEXT.md
+.cursor/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
