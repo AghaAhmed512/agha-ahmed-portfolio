@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AchievementStats } from "@/components/AchievementStats";
+import { AnimatedHeroName } from "@/components/AnimatedHeroName";
 import { site } from "@/data/site";
 import {
   IconArrowRight,
@@ -20,8 +21,13 @@ export function Hero() {
       <div className="section-container relative">
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_auto] lg:gap-16">
           <div>
-            <h1 className="max-w-3xl text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
-              <span className="gradient-text">{site.name}</span>
+            <h1
+              className="max-w-3xl text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl"
+              aria-label={site.name}
+            >
+              <span aria-hidden="true">
+                <AnimatedHeroName />
+              </span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-xl text-muted sm:text-2xl">
