@@ -3,7 +3,6 @@ import { AchievementStats } from "@/components/AchievementStats";
 import { site } from "@/data/site";
 import {
   IconArrowRight,
-  IconDownload,
   IconGitHub,
   IconLinkedIn,
   IconMapPin,
@@ -44,26 +43,15 @@ export function Hero() {
             <AchievementStats />
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="#contact"
-                className="group inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
-              >
+              <a href="#contact" className="group btn-primary">
                 Get in touch
                 <IconArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-              </a>
-              <a
-                href={site.resumePath}
-                download
-                className="inline-flex items-center gap-2 rounded-xl border border-border bg-surface px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent/40 hover:bg-surface-elevated"
-              >
-                <IconDownload className="h-4 w-4" />
-                Download CV
               </a>
               <a
                 href={site.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl border border-border bg-surface px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent/40 hover:bg-surface-elevated"
+                className="btn-outline"
               >
                 <IconLinkedIn className="h-4 w-4" />
                 LinkedIn
@@ -72,7 +60,7 @@ export function Hero() {
                 href={site.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl border border-border bg-surface px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent/40 hover:bg-surface-elevated"
+                className="btn-outline"
               >
                 <IconGitHub className="h-4 w-4" />
                 GitHub

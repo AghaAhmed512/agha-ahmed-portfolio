@@ -54,16 +54,16 @@ export function Contact() {
                       ? "noopener noreferrer"
                       : undefined
                   }
-                  className="group flex items-center gap-4 rounded-xl border border-transparent p-3 transition-colors hover:border-border hover:bg-surface-elevated"
+                  className="group flex items-center gap-4 rounded-xl border border-transparent p-3 transition-colors duration-200 hover:border-[#34d399]/40 hover:bg-[#34d399]/10"
                 >
-                  <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent-glow text-accent">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent-glow text-accent transition-colors duration-200 group-hover:bg-[#34d399]/20 group-hover:text-[#34d399]">
                     <item.icon className="h-5 w-5" />
                   </span>
                   <span>
                     <span className="block text-xs uppercase tracking-wider text-muted">
                       {item.label}
                     </span>
-                    <span className="text-foreground transition-colors group-hover:text-accent">
+                    <span className="text-foreground transition-colors duration-200 group-hover:text-[#34d399]">
                       {item.value}
                     </span>
                   </span>
@@ -75,7 +75,7 @@ export function Contact() {
           <a
             href={site.resumePath}
             download
-            className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-accent py-3.5 text-sm font-medium text-background transition-opacity hover:opacity-90 sm:w-auto sm:px-8"
+            className="btn-primary mt-6 w-full py-3.5 sm:w-auto sm:px-8"
           >
             Download resume (PDF)
           </a>

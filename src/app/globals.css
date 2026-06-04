@@ -54,6 +54,19 @@ body {
   @apply rounded-2xl border border-border bg-surface p-5 transition-colors hover:border-accent/30 sm:p-6;
 }
 
+/* Buttons — hover uses accent #34d399 */
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-sm font-medium text-background transition-colors duration-200 bg-accent-dim hover:bg-[#34d399];
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-surface px-6 py-3 text-sm font-medium text-foreground transition-colors duration-200 hover:border-[#34d399] hover:bg-[#34d399]/10 hover:text-[#34d399];
+}
+
+.btn-nav {
+  @apply text-sm text-muted transition-colors duration-200 hover:text-[#34d399];
+}
+
 .gradient-text {
   @apply bg-gradient-to-r from-foreground via-foreground to-accent bg-clip-text text-transparent;
 }

@@ -33,7 +33,7 @@ export function Header() {
       <div className="section-container flex h-16 items-center justify-between sm:h-[4.5rem]">
         <a
           href="#"
-          className="font-mono text-sm font-medium tracking-tight text-foreground transition-colors hover:text-accent"
+          className="font-mono text-sm font-medium tracking-tight text-foreground transition-colors duration-200 hover:text-[#34d399]"
         >
           {site.shortName}
           <span className="text-accent">.</span>
@@ -44,23 +44,16 @@ export function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-muted transition-colors hover:text-foreground"
+              className="btn-nav"
             >
               {link.label}
             </a>
           ))}
-          <a
-            href={site.resumePath}
-            download
-            className="rounded-lg bg-accent px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90"
-          >
-            Resume
-          </a>
         </nav>
 
         <button
           type="button"
-          className="rounded-lg p-2 text-muted transition-colors hover:text-foreground md:hidden"
+          className="rounded-lg p-2 text-muted transition-colors duration-200 hover:text-[#34d399] md:hidden"
           onClick={() => setOpen(!open)}
           aria-expanded={open}
           aria-label={open ? "Close menu" : "Open menu"}
@@ -79,23 +72,13 @@ export function Header() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className="block text-lg text-foreground"
+                  className="block text-lg text-foreground transition-colors duration-200 hover:text-[#34d399]"
                   onClick={() => setOpen(false)}
                 >
                   {link.label}
                 </a>
               </li>
             ))}
-            <li>
-              <a
-                href={site.resumePath}
-                download
-                className="mt-2 inline-block rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-background"
-                onClick={() => setOpen(false)}
-              >
-                Download Resume
-              </a>
-            </li>
           </ul>
         </nav>
       )}
