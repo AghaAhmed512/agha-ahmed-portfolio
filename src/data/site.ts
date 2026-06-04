@@ -18,11 +18,11 @@ export const site = {
 export const achievementStats = [
   { target: 5, suffix: "+", label: "Years Experience" },
   { target: 4, suffix: "", label: "Enterprise Products" },
-  { target: 100, suffix: "+", label: "Automated Test Cases" },
+  { target: 1000, suffix: "+", label: "Automated Test Cases" },
 ] as const;
 
 export const professionalSummary = [
-  "QA Automation Engineer with 5+ years across mobile development, eLearning QA, and enterprise test automation.",
+  "QA Automation Engineer with 5+ years building enterprise test automation on KAYAK and Hirestream — with earlier experience in Flutter mobile development and eLearning QA",
   "Experienced in WebdriverIO, TypeScript, LambdaTest, CI/CD validation, and cross-browser testing across large-scale products including KAYAK and Hirestream.",
   "Foundation in Flutter and Dart from early mobile work; additionally completed hands-on DevOps training involving AWS, Docker, Terraform, GitHub Actions, and Ansible.",
 ] as const;
@@ -199,7 +199,7 @@ export const skillGroups = [
   },
   {
     category: "Frameworks & Tools",
-    skills: ["WebdriverIO", "Chai", "Mocha", "LambdaTest", "Smart UI", "Git", "Jira"],
+    skills: ["WebdriverIO", "Chai", "Mocha", "LambdaTest", "Smart UI", "Git", "GitHub", "Jira", "Docker", "Terraform", "GitHub Actions", "AWS"],
   },
   {
     category: "Languages",
