@@ -1,11 +1,11 @@
 export const site = {
-  name: "Ahmed Mehmood",
-  shortName: "Ahmed Mehmood",
-  title: "QA Automation Engineer | DevOps Enthusiast",
+  name: "Agha Ahmed",
+  shortName: "Agha Ahmed",
+  title: "Automation Engineer",
   tagline:
-    "Building reliable end-to-end automation frameworks, improving software quality, and expanding expertise in cloud infrastructure, CI/CD, and DevOps practices.",
+    "Building scalable test automation for high-traffic travel platforms and enterprise applications — WebdriverIO, TypeScript, cross-browser CI/CD, and reliable regression at scale.",
   location: "Lahore, Pakistan",
-  email: "aghaaahmed512@gmail.com",
+  email: "aghaahmed512@gmail.com",
   phone: "+92 302 4116225",
   linkedin: "https://www.linkedin.com/in/agha-ahmed",
   github: "https://github.com/AghaAhmed512",
@@ -17,63 +17,65 @@ export const site = {
 
 export const achievementStats = [
   { target: 5, suffix: "+", label: "Years Experience" },
-  { target: 4, suffix: "", label: "Enterprise Products" },
-  { target: 1000, suffix: "+", label: "Automated Test Cases" },
+  { target: 100, suffix: "+", label: "Flaky Tests Stabilized" },
+  { target: 5, suffix: "", label: "Enterprise Products" },
 ] as const;
 
 export const professionalSummary = [
-  "QA Automation Engineer with 5+ years building enterprise test automation on KAYAK and Hirestream — with earlier experience in Flutter mobile development and eLearning QA",
-  "Experienced in WebdriverIO, TypeScript, LambdaTest, CI/CD validation, and cross-browser testing across large-scale products including KAYAK and Hirestream.",
-  "Foundation in Flutter and Dart from early mobile work; additionally completed hands-on DevOps training involving AWS, Docker, Terraform, GitHub Actions, and Ansible.",
+  "Automation Engineer building enterprise-grade end-to-end frameworks for KAYAK, Momondo, HotelsCombined, Mundi, and HireStream using WebdriverIO and TypeScript.",
+  "Strong in cross-browser testing (LambdaTest), Smart UI visual regression, CI/CD pipeline stability, API-driven test data, and migration from legacy stacks such as Protractor.",
+  "Background in eLearning QA (including McKinsey Academy) and earlier Flutter mobile development at Ewig Life.",
 ] as const;
 
 export const aboutMe = [
-  "My career began in mobile application development at EwigLife Technologies (2021–2022), where I built cross-platform Android and iOS applications using Flutter and Dart.",
-  "In 2022, I joined Arbisoft as an E-Learning Technical Developer / QA, contributing to enterprise learning platforms and programs including Edly and McKinsey.",
-  "I later transitioned into QA Automation Engineering, working on large-scale products such as KAYAK, Momondo, HotelsCombined, and Hirestream, focusing on WebdriverIO automation, cross-browser testing, and CI/CD quality validation.",
-  "More recently, I expanded my expertise through hands-on DevOps training and projects involving AWS, Docker, Terraform, GitHub Actions.",
+  "I started as a Junior App Developer at Ewig Life (2021–2022), building cross-platform mobile apps with Flutter and Dart for Android and iOS.",
+  "At Arbisoft, I spent a year as an E-Learning Technical Developer focused on QA and testing — validating interactive modules for enterprise programs including McKinsey Academy across LMS and CMS platforms.",
+  "Since June 2023, I have been an Automation Engineer at Arbisoft, scaling automation for high-traffic travel brands and HireStream’s ATS — stabilizing CI/CD, leading Protractor-to-WebdriverIO migration, and improving release confidence.",
+  "I work closely with engineering, QA, and product teams to prevent production defects through stable, reusable automation and clear defect documentation in Jira.",
 ] as const;
 
 export const experience = [
   {
-    role: "QA Automation Engineer",
+    role: "Automation Engineer",
     company: "Arbisoft",
-    location: "Lahore, Pakistan",
-    period: "Dec 2022 – Jun 2026",
+    location: "Lahore, Pakistan · Onsite",
+    period: "Jun 2023 – Present",
     highlights: [
-      "Developed and maintained scalable end-to-end automation frameworks using WebdriverIO and TypeScript.",
-      "Worked on enterprise travel platforms including KAYAK, Momondo, HotelsCombined, and Mundi.",
-      "Performed cross-browser testing using LambdaTest across Chrome, Firefox, Edge, Safari, macOS, and iOS.",
-      "Implemented Smart UI visual testing to detect layout and UI regressions.",
-      "Monitored CI/CD pipelines and investigated build failures.",
-      "Improved automation stability by identifying and fixing flaky tests.",
-      "Collaborated closely with developers, product managers, and QA teams.",
+      "Building scalable test automation for KAYAK, Momondo, HotelsCombined, Mundi, and HireStream.",
+      "Built and scaled enterprise end-to-end automation frameworks using WebdriverIO and TypeScript.",
+      "Delivered HireStream ATS coverage: candidate management, job creation, forms, settings, and email-based workflows.",
+      "Stabilized CI/CD by resolving 100+ flaky and quarantined tests through root-cause analysis.",
+      "Introduced reusable automation utilities and optimized test architecture for faster regression runs.",
+      "Implemented cross-browser strategy on LambdaTest (Chrome, Firefox, Edge, Safari on macOS and iOS).",
+      "Introduced Smart UI visual regression testing to catch UI inconsistencies before production.",
+      "Led migration of 50+ test cases from Protractor to WebdriverIO.",
+      "Collaborated with engineering to identify and prevent production-level defects via automated pipelines.",
     ],
   },
   {
-    role: "E-Learning Technical Developer / QA",
+    role: "E-Learning Technical Developer (QA & Testing)",
     company: "Arbisoft",
-    location: "Lahore, Pakistan",
-    period: "Jun 2022 – Dec 2022",
+    location: "Lahore, Pakistan · Onsite",
+    period: "Jun 2022 – May 2023",
     highlights: [
-      "Developed and customized interactive e-learning content.",
-      "Performed quality assurance testing for LMS and CMS platforms.",
-      "Reviewed content quality and functionality.",
-      "Created QA reports and validation documentation.",
+      "Performed functional and end-to-end QA on interactive eLearning modules for enterprise programs including McKinsey Academy.",
+      "Validated learning workflows, navigation, and course functionality across LMS and CMS platforms.",
+      "Identified, documented, and tracked defects through structured QA processes.",
+      "Conducted UI and content validation for consistency, accessibility, and instructional alignment.",
+      "Supported release testing and deployment validation across multiple learning environments.",
+      "Collaborated with developers, instructional designers, and stakeholders on quality improvements.",
     ],
   },
   {
     role: "Junior App Developer",
-    company: "EwigLife Technologies",
-    location: "Lahore, Pakistan",
+    company: "Ewig Life",
+    location: "Lahore, Pakistan · Onsite",
     period: "Feb 2021 – May 2022",
-    technologies: ["Flutter", "Dart", "Firebase", "Android", "iOS"],
+    technologies: ["Flutter", "Dart", "Android", "iOS"],
     highlights: [
       "Developed cross-platform mobile applications using Flutter and Dart.",
-      "Implemented user authentication and API integrations.",
-      "Worked on real-time data handling and application functionality.",
-      "Contributed to UI implementation and feature development.",
-      "Collaborated with team members to deliver mobile solutions.",
+      "Implemented user authentication, API integrations, and real-time data handling.",
+      "Collaborated with teams to build, test, and enhance app functionality and stability.",
     ],
   },
 ] as const;
@@ -188,51 +190,76 @@ export const projects = [
 
 export const skillGroups = [
   {
-    category: "Automation & Testing",
+    category: "Programming languages",
+    skills: ["JavaScript", "TypeScript"],
+  },
+  {
+    category: "Manual & automation testing",
     skills: [
-      "End-to-End Testing",
-      "Regression Testing",
-      "Cross-Browser Testing",
-      "Visual Regression (Smart UI)",
-      "CI/CD Build Monitoring",
+      "Manual Testing",
+      "Test Case Design",
+      "Functional / Regression / Smoke / Sanity Testing",
+      "Defect Reporting & Bug Tracking",
+      "WebdriverIO",
+      "Selenium concepts",
+      "API Testing",
+      "UI Automation",
+      "Cross-browser Testing",
+      "Smart UI Visual Testing",
     ],
   },
   {
-    category: "Frameworks & Tools",
-    skills: ["WebdriverIO", "Chai", "Mocha", "LambdaTest", "Smart UI", "Git", "GitHub", "Jira", "Docker", "Terraform", "GitHub Actions", "AWS"],
+    category: "Frameworks & tools",
+    skills: [
+      "Node.js",
+      "Chai",
+      "Mocha",
+      "Postman",
+      "REST API testing",
+      "Reusable test utilities",
+      "Git",
+      "GitHub",
+      "Jira",
+      "Agile / Scrum",
+    ],
   },
   {
-    category: "Languages",
-    skills: ["TypeScript", "JavaScript"],
+    category: "CI/CD & cloud exposure",
+    skills: [
+      "CI/CD pipelines",
+      "GitHub Actions",
+      "Jenkins basics",
+      "Automated test execution",
+      "AWS (basic)",
+      "Docker (basic)",
+      "LambdaTest",
+    ],
   },
   {
-    category: "Development",
-    skills: ["Flutter", "Dart", "Firebase", "Android", "iOS"],
-  },
-  {
-    category: "Domains",
-    skills: ["Travel Platforms", "HR / ATS Systems", "eLearning / LMS"],
+    category: "Domains & development",
+    skills: [
+      "Travel platforms",
+      "HR / ATS systems",
+      "eLearning / LMS",
+      "Flutter",
+      "Dart",
+      "Android",
+      "iOS",
+    ],
   },
 ] as const;
 
 export const education = [
   {
-    degree: "Bachelor of Computer Science",
+    degree: "BS in Computer Science",
     school: "GC University Faisalabad (GCUF)",
     location: "Lahore, Pakistan",
     period: "Nov 2017 – Dec 2021",
-  },
-  {
-    degree: "ICS (Intermediate in Computer Science)",
-    school: "Islamia College Railway Road",
-    location: "Lahore, Pakistan",
-    period: "Jul 2015 – Sep 2017",
-  },
-  {
-    degree: "Matriculation",
-    school: "Shining Boys School",
-    location: "Lahore, Pakistan",
-    period: "Jul 2013 – Jul 2015",
+    gpa: "GPA: 3.01 / 4.0",
+    details: [
+      "Relevant coursework: Data Structures & Algorithms, OOP, Database Systems, Software Engineering, Operating Systems, Computer Networks.",
+      "GCUF Debating Society — debates, event coordination, and academic activities (~20 hours/week).",
+    ],
   },
 ] as const;
 

@@ -5,14 +5,11 @@ export function Footer() {
 
   return (
     <footer className="border-t border-border py-8">
-      <div className="section-container flex flex-col items-center justify-between gap-4 text-sm text-muted sm:flex-row">
+      <div className="section-container text-center text-sm text-muted">
         <p>
           © {year}{" "}
           <span className="text-foreground">{site.shortName}</span>. All rights
           reserved.
-        </p>
-        <p className="font-mono text-xs">
-          Built with Next.js · Test automation portfolio
         </p>
       </div>
     </footer>

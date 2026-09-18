@@ -1,6 +1,6 @@
-# Ahmed Mehmood — Portfolio
+# Agha Ahmed — Portfolio
 
-Personal portfolio for **QA Automation Engineer | DevOps Enthusiast** — built with Next.js 15, TypeScript, and Tailwind CSS v4.
+Personal portfolio for **Automation Engineer** — built with Next.js 15, TypeScript, and Tailwind CSS v4.
 
 > **AI (local only):** `PROJECT_CONTEXT.md` and `.cursor/` are gitignored — use them for session memory on your machine; they are not pushed to GitHub.
 
