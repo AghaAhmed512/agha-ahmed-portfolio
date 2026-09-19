@@ -106,3 +106,43 @@ body {
     transform: none;
   }
 }
+
+@keyframes endorsement-rise {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes endorsement-pill-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.endorsement-card-enter {
+  animation: endorsement-rise 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.endorsement-pill-enter {
+  opacity: 0;
+  animation: endorsement-pill-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .endorsement-card-enter,
+  .endorsement-pill-enter {
+    opacity: 1;
+    animation: none;
+    transform: none;
+  }
+}

@@ -21,6 +21,42 @@ export const achievementStats = [
   { target: 5, suffix: "", label: "Enterprise Products" },
 ] as const;
 
+export const clientEndorsement = {
+  company: "KAYAK",
+  companyLogo: "/logos/kayak.png",
+  tenure: "3+ years on travel automation",
+  quoteLead: "Dependable, productive automation engineer",
+  quoteRest:
+    "— experienced in cloud-powered tests, GTM tracking, and visual regression. Owns the automation suite, drove LambdaTest adoption, and brings meaningful value every day.",
+  name: "Ramunas Klimavicius",
+  title: "Director of Quality Management",
+  highlights: [
+    "LambdaTest adoption",
+    "GTM & visual regression",
+    "CI & flaky-test ownership",
+    "Cross-team support",
+  ],
+} as const;
+
+export const peerRecommendations = [
+  {
+    quote:
+      "Great automation engineer — independent, proactive, and hard-working with little direction.",
+    name: "Gabija Pokvytyte",
+    title: "Quality Manager",
+    company: "KAYAK",
+    relation: "Managed Agha directly",
+  },
+  {
+    quote:
+      "Strong technical skills, takes ownership, and delivers high-quality work; grew quickly in automation and testing.",
+    name: "Hassaan Ahmad Farooqi",
+    title: "Principal Software Engineer",
+    company: "Arbisoft",
+    relation: "Managed Agha directly",
+  },
+] as const;
+
 export const professionalSummary = [
   "Automation Engineer building enterprise-grade end-to-end frameworks for KAYAK, Momondo, HotelsCombined, Mundi, and HireStream using WebdriverIO and TypeScript.",
   "Strong in cross-browser testing (LambdaTest), Smart UI visual regression, CI/CD pipeline stability, API-driven test data, and migration from legacy stacks such as Protractor.",
@@ -49,6 +85,7 @@ export const experience = [
       "Implemented cross-browser strategy on LambdaTest (Chrome, Firefox, Edge, Safari on macOS and iOS).",
       "Introduced Smart UI visual regression testing to catch UI inconsistencies before production.",
       "Led migration of 50+ test cases from Protractor to WebdriverIO.",
+      "Tracked quarantine metrics and build health across product areas; documented issues in Jira with clear reproduction steps.",
       "Collaborated with engineering to identify and prevent production-level defects via automated pipelines.",
     ],
   },
@@ -114,9 +151,9 @@ export const projects = [
       "Built and maintained automation for Flights, Cars, Hotels, Packages, and related search flows.",
       "Added cross-browser coverage (Firefox, Edge, Safari, iOS) using LambdaTest.",
       "Used Chai assertions and custom helper methods for readability and reusability.",
-      "Implemented GTM and localization testing across brands and locales.",
-      "Supported migration from Protractor to WebdriverIO.",
-      "Actively monitored scheduled builds and improved test stability.",
+      "Implemented GTM/converge tracking validation and localization coverage across brands and locales.",
+      "Maintained cloud-based LambdaTest execution and contributed to cross-browser troubleshooting practices.",
+      "Supported migration from Protractor to WebdriverIO and monitored scheduled builds for stability.",
     ],
     impact: [
       "Improved stability and reliability of daily smoke, sanity, and regression pipelines.",
@@ -265,6 +302,7 @@ export const education = [
 
 export const navLinks = [
   { href: "#about", label: "About" },
+  { href: "#recognition", label: "Endorsement" },
   { href: "#experience", label: "Experience" },
   { href: "#projects", label: "Projects" },
   { href: "#skills", label: "Skills" },
